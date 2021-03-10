@@ -214,9 +214,17 @@ h5 {
     outline: none;
 }
 
-/*.container-4:hover button.icon:hover {
-    background: white;
-}*/
+button.icon:hover {
+    background-color: rgb(155, 203, 219);
+}
+
+button.icon:active {
+    background-color: rgb(119, 165, 180);
+    border-top: rgb(253, 253, 253) solid 0.8px;
+    border-left: rgb(253, 253, 253) solid 0.8px;
+    border-bottom: rgb(5, 89, 114) solid 1.4px;
+    border-right: rgb(5, 89, 114) solid 1.4px;
+}
 
 .dot {
     display: flex;
